@@ -1,5 +1,4 @@
 import React from 'react';
-import Testimonial from './Testimonial';
 
 function Home() {
   return (
@@ -271,7 +270,7 @@ function Home() {
                   >
                     <a
                       className="position-relative d-block overflow-hidden"
-                      href
+                      href="/thailand"
                     >
                       <img
                         className="img-fluid"
@@ -292,7 +291,7 @@ function Home() {
                   >
                     <a
                       className="position-relative d-block overflow-hidden"
-                      href
+                      href="/malaysia"
                     >
                       <img
                         className="img-fluid"
@@ -313,7 +312,7 @@ function Home() {
                   >
                     <a
                       className="position-relative d-block overflow-hidden"
-                      href
+                      href="/australia"
                     >
                       <img
                         className="img-fluid"
@@ -337,7 +336,7 @@ function Home() {
               >
                 <a
                   className="position-relative d-block h-100 overflow-hidden"
-                  href
+                  href="/indonesia"
                 >
                   <img
                     className="img-fluid position-absolute w-100 h-100"
@@ -403,14 +402,14 @@ function Home() {
                     </p>
                     <div className="d-flex justify-content-center mb-2">
                       <a
-                        href="#"
+                        href="/thailand"
                         className="btn btn-sm btn-primary px-3 border-end"
                         style={{ borderRadius: '30px 0 0 30px' }}
                       >
                         Read More
                       </a>
                       <a
-                        href="#"
+                        href="/booking"
                         className="btn btn-sm btn-primary px-3"
                         style={{ borderRadius: '0 30px 30px 0' }}
                       >
@@ -456,14 +455,14 @@ function Home() {
                     </p>
                     <div className="d-flex justify-content-center mb-2">
                       <a
-                        href="#"
+                        href="/indonesia"
                         className="btn btn-sm btn-primary px-3 border-end"
                         style={{ borderRadius: '30px 0 0 30px' }}
                       >
                         Read More
                       </a>
                       <a
-                        href="#"
+                        href="/booking"
                         className="btn btn-sm btn-primary px-3"
                         style={{ borderRadius: '0 30px 30px 0' }}
                       >
@@ -509,14 +508,14 @@ function Home() {
                     </p>
                     <div className="d-flex justify-content-center mb-2">
                       <a
-                        href="#"
+                        href="/malaysia"
                         className="btn btn-sm btn-primary px-3 border-end"
                         style={{ borderRadius: '30px 0 0 30px' }}
                       >
                         Read More
                       </a>
                       <a
-                        href="#"
+                        href="/booking"
                         className="btn btn-sm btn-primary px-3"
                         style={{ borderRadius: '0 30px 30px 0' }}
                       >

@@ -61,6 +61,35 @@ function Menu() {
                 </Link>
               </div>
             </div>
+            <div className="nav-item dropdown">
+              <a
+                href="#"
+                className="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                Destination
+              </a>
+              <div className="dropdown-menu m-0">
+                <Link to="/thailand" className="dropdown-item">
+                  Thailand
+                </Link>
+                <Link to="/england" className="dropdown-item">
+                  England
+                </Link>
+                <Link to="/malaysia" className="dropdown-item">
+                  Malaysia
+                </Link>
+                <Link to="/australia" className="dropdown-item">
+                  Australia
+                </Link>
+                <Link to="/indonesia" className="dropdown-item">
+                  Indonesia
+                </Link>
+                <Link to="/vietnam" className="dropdown-item">
+                  Vietnam
+                </Link>
+              </div>
+            </div>
             <Link to="/contact" className="nav-item nav-link">
               Contact
             </Link>

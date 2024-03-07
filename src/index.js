@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
+// Pages
 import About from './Pages/About';
 import Home from './Pages/Home';
 import Services from './Pages/Services';
@@ -15,6 +15,14 @@ import Booking from './Pages/Booking';
 import Team from './Pages/Team';
 import Testimonial from './Pages/Testimonial';
 import Pages404 from './Pages/Page404';
+import Details from './Pages/Details';
+// Destination
+import Thailand from './Pages/Thailand';
+import England from './Pages/England';
+import Malaysia from './Pages/Malaysia';
+import Australia from './Pages/Australia';
+import Indonesia from './Pages/Indonesia';
+import Vietnam from './Pages/Vietnam';
 
 const router = createBrowserRouter([
   {
@@ -60,6 +68,34 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />,
+      },
+      {
+        path: '/details',
+        element: <Details />,
+      },
+      {
+        path: '/thailand',
+        element: <Thailand />,
+      },
+      {
+        path: '/england',
+        element: <England />,
+      },
+      {
+        path: '/malaysia',
+        element: <Malaysia />,
+      },
+      {
+        path: '/australia',
+        element: <Australia />,
+      },
+      {
+        path: '/indonesia',
+        element: <Indonesia />,
+      },
+      {
+        path: '/vietnam',
+        element: <Vietnam />,
       },
     ],
   },

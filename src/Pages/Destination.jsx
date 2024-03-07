@@ -55,12 +55,12 @@ function Destination() {
                   >
                     <a
                       className="position-relative d-block overflow-hidden"
-                      href
+                      href="/thailand"
                     >
                       <img
                         className="img-fluid"
                         src="img/destination-1.jpg"
-                        alt
+                        alt=""
                       />
                       <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                         30% OFF
@@ -76,12 +76,12 @@ function Destination() {
                   >
                     <a
                       className="position-relative d-block overflow-hidden"
-                      href
+                      href="/malaysia"
                     >
                       <img
                         className="img-fluid"
                         src="img/destination-2.jpg"
-                        alt
+                        alt=""
                       />
                       <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                         25% OFF
@@ -97,12 +97,12 @@ function Destination() {
                   >
                     <a
                       className="position-relative d-block overflow-hidden"
-                      href
+                      href="/australia"
                     >
                       <img
                         className="img-fluid"
                         src="img/destination-3.jpg"
-                        alt
+                        alt=""
                       />
                       <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                         35% OFF
@@ -121,12 +121,12 @@ function Destination() {
               >
                 <a
                   className="position-relative d-block h-100 overflow-hidden"
-                  href
+                  href="/indonesia"
                 >
                   <img
                     className="img-fluid position-absolute w-100 h-100"
                     src="img/destination-4.jpg"
-                    alt
+                    alt=""
                     style={{ objectFit: 'cover' }}
                   />
                   <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">

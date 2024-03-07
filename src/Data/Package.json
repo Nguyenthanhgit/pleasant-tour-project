@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Thailand",
+    "url": "thai-land",
+    "image": "img/package-1.jpg",
+    "desti": "Thailand",
+    "days": "3 days",
+    "person": "2 person",
+    "price": "$149.00",
+    "desc": "Thailand is a highly renowned tourist destination. Here, you will have the opportunity to experience many fascinating things"
+  },
+  {
+    "id": 2,
+    "name": "Indonesia",
+    "url": "iin-do-ne-si-a",
+    "image": "img/package-2.jpg",
+    "desti": "Indonesia",
+    "days": "3 days",
+    "person": "2 person",
+    "price": "$139.00",
+    "desc": "Indonesia is a captivating travel destination with diverse attractions and rich cultural experiences"
+  },
+  {
+    "id": 3,
+    "name": "Malaysia",
+    "url": "Ma-lay-si-a",
+    "image": "img/package-3.jpg",
+    "desti": "Malaysia",
+    "days": "3 days",
+    "person": "2 person",
+    "price": "$189.00",
+    "desc": "Malaysia offers a vibrant blend of breathtaking landscapes, cultural diversity, and culinary delights for unforgettable travel experiences"
+  },
+  {
+    "id": 4,
+    "name": "England",
+    "url": "eng-land",
+    "image": "img/England1.jpg",
+    "desti": "England",
+    "days": "4 days",
+    "person": "2 person",
+    "price": "$169.00",
+    "desc": "England charms visitors with its iconic landmarks, captivating history and charming countryside, making it a must-visit destination"
+  },
+  {
+    "id": 5,
+    "name": "Australia",
+    "url": "Aus-tra-li-a",
+    "image": "img/Australia3.jpg",
+    "desti": "Australia",
+    "days": "4 days",
+    "person": "4 person",
+    "price": "$199.00",
+    "desc": "Australia beckons with its stunning natural wonders, unique wildlife encounters, and a vibrant blend of cosmopolitan cities and laid-back coastal vibes"
+  },
+  {
+    "id": 6,
+    "name": "Vietnam",
+    "url": "viet-nam",
+    "image": "img/vietnam4.jpg",
+    "desti": "Vietnam",
+    "days": "3 days",
+    "person": "2 person",
+    "price": "$289.00",
+    "desc": "Vietnam entices with its rich history, breathtaking landscapes, vibrant cities, and mouthwatering cuisine, offering an unforgettable travel experience"
+  }
+]

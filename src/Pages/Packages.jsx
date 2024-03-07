@@ -1,4 +1,5 @@
 import React from 'react';
+import Package from '../Data/Package.json';
 import Menu from '../Components/Menu';
 
 function Packages() {
@@ -47,7 +48,61 @@ function Packages() {
               <h1 className="mb-5">Awesome Packages</h1>
             </div>
             <div className="row g-4 justify-content-center">
-              <div
+              {Package.map((item) => (
+                <div
+                  className="col-lg-4 col-md-6 wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <div className="package-item">
+                    <div className="overflow-hidden">
+                      <img className="img-fluid" src={item.image} alt="" />
+                    </div>
+                    <div className="d-flex border-bottom">
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-map-marker-alt text-primary me-2" />
+                        {item.name}
+                      </small>
+                      <small className="flex-fill text-center border-end py-2">
+                        <i className="fa fa-calendar-alt text-primary me-2" />
+                        {item.days}
+                        days
+                      </small>
+                      <small className="flex-fill text-center py-2">
+                        <i className="fa fa-user text-primary me-2" />
+                        {item.person} Person
+                      </small>
+                    </div>
+                    <div className="text-center p-4">
+                      <h3 className="mb-0">${item.price}</h3>
+                      <div className="mb-3">
+                        <small className="fa fa-star text-primary" />
+                        <small className="fa fa-star text-primary" />
+                        <small className="fa fa-star text-primary" />
+                        <small className="fa fa-star text-primary" />
+                        <small className="fa fa-star text-primary" />
+                      </div>
+                      <p>{item.desc}</p>
+                      <div className="d-flex justify-content-center mb-2">
+                        <a
+                          href="#"
+                          className="btn btn-sm btn-primary px-3 border-end"
+                          style={{ borderRadius: '30px 0 0 30px' }}
+                        >
+                          Read More
+                        </a>
+                        <a
+                          href="/booking"
+                          className="btn btn-sm btn-primary px-3"
+                          style={{ borderRadius: '0 30px 30px 0' }}
+                        >
+                          Book Now
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+              {/* <div
                 className="col-lg-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.1s"
               >
@@ -205,7 +260,7 @@ function Packages() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

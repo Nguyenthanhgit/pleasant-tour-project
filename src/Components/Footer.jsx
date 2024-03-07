@@ -32,11 +32,11 @@ function Footer() {
               <h4 className="text-white mb-3">Contact</h4>
               <p className="mb-2">
                 <i className="fa fa-map-marker-alt me-3" />
-                123 Street, New York, USA
+                Van Phuc, Thu Duc, Ho Chi Minh
               </p>
               <p className="mb-2">
                 <i className="fa fa-phone-alt me-3" />
-                +012 345 67890
+                0972.546.041
               </p>
               <p className="mb-2">
                 <i className="fa fa-envelope me-3" />
@@ -106,7 +106,7 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-3">Newsletter</h4>
-              <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+              <p>We will contact you as soon as possible.</p>
               <div
                 className="position-relative mx-auto"
                 style={{ maxWidth: 400 }}

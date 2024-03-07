@@ -257,6 +257,21 @@
 .package-item:hover img {
   transform: scale(1.1);
 }
+.package-details {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.package-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
 /*** Booking ***/
 .booking {
@@ -438,4 +453,18 @@
   margin-right: 0;
   padding-right: 0;
   border-right: none;
+}
+.text {
+  font-size: 120%;
+  color: green;
+}
+.img-thailand {
+  height: 70%;
+  width: 80%;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  text-align: justify;
 }
